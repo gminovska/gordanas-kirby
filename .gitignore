@@ -47,7 +47,8 @@ Icon
 # ---------------
 /site/config/.license
 
-# Composer packages & Kirby 
+# PHP/Node packages & Kirby 
 # ---------------
 /kirby
 /vendor
+/node_modules

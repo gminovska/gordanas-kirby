@@ -1,0 +1,28 @@
+{
+  "name": "gordanas-kirby",
+  "version": "1.0.0",
+  "description": "Learning Kirby CMS",
+  "scripts": {
+    "start": "node browsersync.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  },
+  "browserSync": {
+    "proxy": "https://gordanas-kirby.test",
+    "watch": [
+      "assets",
+      "content",
+      "site/snippets",
+      "site/templates",
+      "site/blueprints",
+      "site/languages"
+    ],
+    "ignore": [
+      "**/.lock",
+      "**/.DS_Store"
+    ]
+  }
+}
